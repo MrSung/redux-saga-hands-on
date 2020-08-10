@@ -15,6 +15,7 @@ function App() {
           onIncrement={() => dispatch({ type: 'INCREMENT' })}
           onDecrement={() => dispatch({ type: 'DECREMENT' })}
           onIncrementAsync={() => dispatch({ type: 'INCREMENT_ASYNC' })}
+          onDecrementAsync={() => dispatch({ type: 'DECREMENT_ASYNC' })}
         />
       </header>
     </div>
